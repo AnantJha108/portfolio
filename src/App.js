@@ -8,14 +8,15 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
-     <Header/>
-     <Banner/>
-     <Skills/>
-     <Projects/>
-     <Education/>
-     <Footer/>
-    </>
+    <div className=''>
+      {/* bg-slate-900 */}
+      <Header/>
+      <Banner/>
+      <Skills/>
+      <Projects/>
+      <Education/>
+      <Footer/>
+    </div>
   );
 }
 
