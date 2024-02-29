@@ -15,6 +15,8 @@ import git from '../images/git.png'
 import github from '../images/github.png'
 import netlify from '../images/netlify.png'
 import postman from '../images/postman.png'
+import c from '../images/c.png'
+import cPlus from '../images/c++.png'
 
 const Skills = () => {
     return (
@@ -28,7 +30,7 @@ const Skills = () => {
                     <div class="xl:w-2/4 md:w-1/2 p-4">
                         <div class="border border-gray-200 p-6 rounded-lg shadow-lg">
                             <h2 class="text-gray-900 text-xl text-center font-medium title-font mb-2">FrontEnd</h2>
-                            <div class='flex flex-wrap'>
+                            <div class='flex flex-wrap justify-center'>
                                 <div className='border border-gray-200 px-4 py-2 rounded-lg shadow-lg mx-2 my-3 flex flex-wrap'>
                                     <img src={html} width={26} alt="" />
                                     <span className='ml-2 font-medium'>HTML</span>
@@ -63,7 +65,7 @@ const Skills = () => {
                     <div class="xl:w-2/4 md:w-1/2 p-4">
                         <div class="border border-gray-200 p-6 rounded-lg shadow-lg">
                             <h2 class="text-gray-900 text-xl text-center font-medium title-font mb-2">BackEnd</h2>
-                            <div class='flex flex-wrap'>
+                            <div class='flex flex-wrap justify-center'>
                                 <div className='border border-gray-200 px-4 py-2 rounded-lg shadow-lg mx-2 my-3 flex flex-wrap'>
                                     <img src={php} width={26} alt="" />
                                     <span className='ml-2 font-medium'>Php</span>
@@ -90,7 +92,7 @@ const Skills = () => {
                     <div class="xl:w-2/4 md:w-1/2 p-4">
                         <div class="border border-gray-200 p-6 rounded-lg shadow-lg">
                             <h2 class="text-gray-900 text-xl text-center font-medium title-font mb-2">Others</h2>
-                            <div class='flex flex-wrap'>
+                            <div class='flex flex-wrap justify-center'>
                                 <div className='border border-gray-200 px-4 py-2 rounded-lg shadow-lg mx-2 my-3 flex flex-wrap'>
                                     <img src={git} width={26} alt="" />
                                     <span className='ml-2 font-medium'>Git</span>
@@ -106,6 +108,25 @@ const Skills = () => {
                                 <div className='border border-gray-200 px-4 py-2 rounded-lg shadow-lg mx-2 my-3 flex flex-wrap'>
                                     <img src={postman} width={26} alt="" />
                                     <span className='ml-2 font-medium'>Postman</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xl:w-2/4 md:w-1/2 p-4">
+                        <div class="border border-gray-200 p-6 rounded-lg shadow-lg">
+                            <h2 class="text-gray-900 text-xl text-center font-medium title-font mb-2">Programming Language</h2>
+                            <div class='flex flex-wrap justify-center'>
+                                <div className='border border-gray-200 px-4 py-2 rounded-lg shadow-lg mx-2 my-3 flex flex-wrap'>
+                                    <img src={c} width={26} alt="" />
+                                    <span className='ml-2 font-medium'>C</span>
+                                </div>
+                                <div className='border border-gray-200 px-4 py-2 rounded-lg shadow-lg mx-2 my-3 flex flex-wrap'>
+                                    <img src={cPlus} width={26} alt="" />
+                                    <span className='ml-2 font-medium'>C++</span>
+                                </div>
+                                <div className='border border-gray-200 px-4 py-2 rounded-lg shadow-lg mx-2 my-3 flex flex-wrap'>
+                                    <img src={python} width={26} alt="" />
+                                    <span className='ml-2 font-medium'>Python</span>
                                 </div>
                             </div>
                         </div>

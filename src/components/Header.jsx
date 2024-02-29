@@ -3,7 +3,7 @@ import { Link} from "react-scroll";
 
 const Header = () => {
     return (
-        <header id="header" class="text-gray-500 bg-green-200 body-font">
+        <header id="header" class="text-gray-500 bg-green-200 body-font z-20 top-0 start-0 fixed w-full">
             <div class="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
                 <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                     <span class="ml-3 text-xl">My Portfolio</span>
