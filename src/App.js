@@ -8,8 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className=''>
-      {/* bg-slate-900 */}
+    <div className='dark:bg-slate-900'>
       <Header/>
       <Banner/>
       <Skills/>
