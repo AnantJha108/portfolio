@@ -2,6 +2,7 @@ import React from 'react'
 import tweet from "../images/tweeter.png"
 import ticTac from "../images/ticTac.png"
 import guessGender from "../images/guessGender.png"
+import ecom from "../images/ecom.png"
 
 const Projects = () => {
     return (
@@ -17,7 +18,7 @@ const Projects = () => {
                                 <div class="w-100 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                                     <img src={tweet} alt="" />
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
+                                <h2 class="text-lg text-gray-900 font-medium title-font mb-2 dark:text-gray-200">Tweeter Clone</h2>
                                 <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
                             </div>
                         </div>
@@ -26,7 +27,16 @@ const Projects = () => {
                                 <div class="w-100 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                                     <img src={ticTac} alt="" />
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
+                                <h2 class="text-lg text-gray-900 font-medium title-font mb-2 dark:text-gray-200">Tic Tac Toe Game</h2>
+                                <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/3 md:w-1/2 p-4">
+                            <div class="border border-gray-200 p-6 rounded-lg">
+                                <div class="w-100 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                                    <img src={ecom} alt="" />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-medium title-font mb-2 dark:text-gray-200">Ecommerce Web Applications</h2>
                                 <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
                             </div>
                         </div>
@@ -35,7 +45,7 @@ const Projects = () => {
                                 <div class="w-100 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                                     <img src={guessGender} alt="" />
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
+                                <h2 class="text-lg text-gray-900 font-medium title-font mb-2 dark:text-gray-200">Guess Details By Name</h2>
                                 <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
                             </div>
                         </div>

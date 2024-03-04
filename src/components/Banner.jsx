@@ -15,7 +15,7 @@ const Banner = () => {
                             HTML , CSS , JavaScript , Python , Django , Php , Laravel , MySql , SqlLite , Bootstrap and React. Adept at
                             developing and deploying complex backend systems, web services.<br/></p>
                         <div class="flex justify-center">
-                            <button class=" ring-2 ring-blue-500 inline-flex rounded-full text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-lg">My Resume</button>
+                            <a href='https://drive.google.com/file/d/1zPiSjT8pZuJ7lH8eBspiCDaQ52cMr3TK/view?usp=sharing' class=" ring-2 ring-blue-500 inline-flex rounded-full text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-lg" target='_blanck'>My Resume</a>
                         </div>
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2">

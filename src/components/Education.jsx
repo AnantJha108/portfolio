@@ -1,6 +1,7 @@
 import React from 'react'
 import pu from '../images/pu.png'
 import svm from '../images/svm.png'
+import bbm from '../images/bbm.png'
 
 const Education = () => {
     return (
@@ -13,7 +14,7 @@ const Education = () => {
                 <div class="container px-5 py-4 mx-auto flex flex-wrap justify-center">
                     <div class="lg:w-3/4 md:w-1/2 md:py-6">
                         <div className='flex'>
-                            <div class="w-2/4 flex-grow">
+                            <div class="lg:w-2/4  md:w-1/2 flex-grow">
                                 <div class="p-4">
                                     <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
                                         <div className='flex'>
@@ -30,7 +31,7 @@ const Education = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex relative pb-12">
+                            <div className="flex relative pb-12 ">
                                 <div class="h-full w-20 absolute inset-0 flex items-center justify-center">
                                     <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                                 </div>
@@ -38,7 +39,7 @@ const Education = () => {
                                     <img src={pu} alt="" />
                                 </div>
                             </div>
-                            <div class="w-2/4">
+                            <div class="lg:w-2/4 md:w-1/2">
                                 <h2 class="font-medium title-font text-gray-900 mb-1 tracking-wider text-lg mt-2 p-4 dark:text-gray-200">Oct 2021 - Sep 2025</h2>
                             </div>
                         </div>
@@ -52,23 +53,25 @@ const Education = () => {
                                 <div class="h-full w-20 absolute inset-0 flex items-center justify-center">
                                     <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                                 </div>
-                                <div class="flex-shrink-0 w-20 h-20 rounded-full inline-flex items-center justify-center text-white relative z-10">
-                                    <img src={pu} alt="" />
+                                <div class="flex-shrink-0 w-20 h-20 p-3 rounded-full inline-flex items-center justify-center text-white relative z-10 bg-gray-600">
+                                    <img src={bbm} alt="" />
                                 </div>
                             </div>
-                            <div class="w-2/4 p-4">
-                                <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
-                                    <div className='flex'>
-                                        <div class="flex-shrink-0 w-20 h-20 p-3 rounded-full inline-flex items-center justify-center text-white relative z-10">
-                                            <img src={pu} alt="" />
+                            <div class="lg:w-2/4  md:w-1/2 flex-grow">
+                                <div className="p-4">
+                                    <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
+                                        <div className='flex'>
+                                            <div class="flex-shrink-0 w-14 h-14 p-3 rounded-full inline-flex items-center justify-center text-white relative z-10 bg-gray-600">
+                                                <img src={bbm} alt="" />
+                                            </div>
+                                            <div className='px-3'>
+                                                <h2 class="text-xl text-gray-900 font-medium title-font dark:text-gray-200">BBM Secondary High School Purnea</h2>
+                                                <p className='text-gray-900 font-serif dark:text-gray-300'>BSEB(XII), Science With Math</p>
+                                                <small className='text-gray-900 dark:text-gray-200'>Passing Year : 2020</small>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <h2 class="text-xl text-gray-900 font-medium title-font dark:text-gray-200">BBM Secondary High School Purnea</h2>
-                                            <p className='text-gray-900 font-serif dark:text-gray-300'>BSEB(XII), Science With Math</p>
-                                            <small className='text-gray-900 dark:text-gray-200'>Passing Year : 2020</small>
-                                        </div>
+                                        <p class="leading-relaxed text-base dark:text-gray-300 text-center text-gray-800 mt-1">I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar.</p>
                                     </div>
-                                    <p class="leading-relaxed text-base dark:text-gray-300 text-center text-gray-800 mt-1">I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar.</p>
                                 </div>
                             </div>
                         </div>
