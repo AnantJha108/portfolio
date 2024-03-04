@@ -27,7 +27,7 @@ const Skills = () => {
                     <h1 class="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-900 dark:text-gray-200">Skills</h1>
                     <p class="lg:w-3/4 w-full text-lg leading-relaxed text-gray-500 dark:text-gray-300">Here are some of my skills on which I have been working on for the past 3 years.</p>
                 </div>
-                <div class="flex flex-wrap px-20">
+                <div class="flex flex-wrap xl:px-20">
                     <div class="xl:w-2/4 md:w-1/2 p-4">
                         <div class="border border-gray-200 p-6 rounded-lg shadow-lg">
                             <h2 class="text-gray-900 dark:text-gray-200 text-xl text-center font-medium title-font mb-2">FrontEnd</h2>
