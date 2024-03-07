@@ -18,7 +18,7 @@ const Education = () => {
                                 <div class="p-4">
                                     <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
                                         <div className='flex'>
-                                            <div class="flex-shrink-0 w-20 h-20 p-3 rounded-full inline-flex items-center justify-center text-white relative z-10">
+                                            <div class="flex-shrink-0 w-20 h-20 p-3 rounded-full inline-flex items-center justify-center text-white">
                                                 <img src={pu} alt="" />
                                             </div>
                                             <div>
@@ -35,7 +35,7 @@ const Education = () => {
                                 <div class="h-full w-20 absolute inset-0 flex items-center justify-center">
                                     <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                                 </div>
-                                <div class="flex-shrink-0 w-20 h-20 rounded-full inline-flex items-center justify-center text-white relative z-10">
+                                <div class="flex-shrink-0 w-20 h-20 rounded-full inline-flex items-center justify-center text-white relative">
                                     <img src={pu} alt="" />
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ const Education = () => {
                                 <div class="h-full w-20 absolute inset-0 flex items-center justify-center">
                                     <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                                 </div>
-                                <div class="flex-shrink-0 w-20 h-20 p-3 rounded-full inline-flex items-center justify-center text-white relative z-10 bg-gray-600">
+                                <div class="flex-shrink-0 w-20 h-20 p-3 rounded-full inline-flex items-center justify-center text-white relative bg-gray-600">
                                     <img src={bbm} alt="" />
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ const Education = () => {
                                 <div className="p-4">
                                     <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
                                         <div className='flex'>
-                                            <div class="flex-shrink-0 w-14 h-14 p-3 rounded-full inline-flex items-center justify-center text-white relative z-10 bg-gray-600">
+                                            <div class="flex-shrink-0 w-14 h-14 p-3 rounded-full inline-flex items-center justify-center text-white bg-gray-600">
                                                 <img src={bbm} alt="" />
                                             </div>
                                             <div className='px-3'>
@@ -80,7 +80,7 @@ const Education = () => {
                                 <div class="p-4">
                                     <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
                                         <div className='flex'>
-                                            <div class="flex-shrink-0 w-20 h-20 p-3 rounded-full inline-flex items-center justify-center text-white relative z-10">
+                                            <div class="flex-shrink-0 w-20 h-20 p-3 rounded-full inline-flex items-center justify-center text-white">
                                                 <img src={svm} className='rounded-full' alt="" />
                                             </div>
                                             <div>
@@ -97,7 +97,7 @@ const Education = () => {
                                 <div class="h-full w-20 absolute inset-0 flex items-center justify-center">
                                     <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
                                 </div>
-                                <div class="flex-shrink-0 w-20 h-20 rounded-full inline-flex items-center justify-center text-white relative z-10">
+                                <div class="flex-shrink-0 w-20 h-20 rounded-full inline-flex items-center justify-center text-white relative">
                                     <img src={svm} className='rounded-full' alt="" />
                                 </div>
                             </div>
