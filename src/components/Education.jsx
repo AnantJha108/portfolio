@@ -11,19 +11,19 @@ const Education = () => {
                     <h1 class="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-900 dark:text-gray-200">Education</h1>
                     <p class="lg:w-3/4 w-full text-lg leading-relaxed text-gray-500 dark:text-gray-300">My Education details </p>
                 </div>
-                <div class="container px-5 py-4 mx-auto flex flex-wrap justify-center">
-                    <div class="lg:w-3/4 md:w-1/2 md:py-6">
+                <div class="container px-1 py-4 mx-auto flex flex-wrap justify-center">
+                    <div class="lg:w-3/4 md:w-1/2 md:py-4">
                         <div className='flex'>
-                            <div class="lg:w-2/4  md:w-1/2 flex-grow">
-                                <div class="p-4">
+                            <div class="lg:w-2/4 p-0  md:w-1/2 flex-grow">
+                                <div class="lg:p-4 sm:p-0">
                                     <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
                                         <div className='flex'>
                                             <div class="flex-shrink-0 w-20 h-20 p-3 rounded-full inline-flex items-center justify-center text-white">
                                                 <img src={pu} alt="" />
                                             </div>
                                             <div>
-                                                <h2 class="text-xl text-gray-900 font-medium title-font dark:text-gray-200">Purnea college Purnea</h2>
-                                                <p className='text-gray-900 font-serif dark:text-gray-300'>Bachelor of Computer Application (BCA)</p>
+                                                <h2 class="text-xl  text-gray-900 font-medium title-font dark:text-gray-200">Purnea college Purnea</h2>
+                                                <p className='lg:font-serif  text-gray-900 dark:text-gray-300'>Bachelor of Computer Application (BCA)</p>
                                                 <small className='text-gray-900 dark:text-gray-200'>Oct 2020 - Sep 2023</small>
                                             </div>
                                         </div>
@@ -57,16 +57,16 @@ const Education = () => {
                                     <img src={bbm} alt="" />
                                 </div>
                             </div>
-                            <div class="lg:w-2/4  md:w-1/2 flex-grow">
-                                <div className="p-4">
+                            <div class="lg:w-2/4 p-0  md:w-1/2 flex-grow">
+                                <div className="lg:p-4 sm:p-0">
                                     <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
                                         <div className='flex'>
                                             <div class="flex-shrink-0 w-14 h-14 p-3 rounded-full inline-flex items-center justify-center text-white bg-gray-600">
                                                 <img src={bbm} alt="" />
                                             </div>
                                             <div className='px-3'>
-                                                <h2 class="text-xl text-gray-900 font-medium title-font dark:text-gray-200">BBM Secondary High School Purnea</h2>
-                                                <p className='text-gray-900 font-serif dark:text-gray-300'>BSEB(XII), Science With Math</p>
+                                                <h2 class="lg:text-xl sm:text-lg text-gray-900 font-medium title-font dark:text-gray-200">BBM Secondary High School Purnea</h2>
+                                                <p className='text-base text-gray-900 font-serif dark:text-gray-300'>BSEB(XII), Science With Math</p>
                                                 <small className='text-gray-900 dark:text-gray-200'>Passing Year : 2020</small>
                                             </div>
                                         </div>
@@ -76,16 +76,16 @@ const Education = () => {
                             </div>
                         </div>
                         <div className='flex'>
-                            <div class="w-2/4 flex-grow">
-                                <div class="p-4">
+                            <div class="w-2/4 p-0 flex-grow">
+                                <div class="lg:p-4 sm:p-0">
                                     <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
                                         <div className='flex'>
                                             <div class="flex-shrink-0 w-20 h-20 p-3 rounded-full inline-flex items-center justify-center text-white">
                                                 <img src={svm} className='rounded-full' alt="" />
                                             </div>
                                             <div>
-                                                <h2 class="text-xl text-gray-900 font-medium title-font dark:text-gray-200">Saraswati Vidhya Mandir Baghmara Purnea </h2>
-                                                <p className='text-gray-900 font-serif dark:text-gray-300'>CBSE(X), Science With Computer</p>
+                                                <h2 class="lg:text-xl sm:text-lg text-gray-900 font-medium title-font dark:text-gray-200">Saraswati Vidhya Mandir Baghmara Purnea </h2>
+                                                <p className='text-base text-gray-900 font-serif dark:text-gray-300'>CBSE(X), Science With Computer</p>
                                                 <small className='text-gray-900 dark:text-gray-200'>Passing Year : 2018</small>
                                             </div>
                                         </div>

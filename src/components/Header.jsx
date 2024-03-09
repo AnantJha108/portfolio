@@ -39,12 +39,12 @@ const Header = () => {
                 <button onClick={() => {
                     setIsMenuOpen(!isMenuOpen);
                 }} className='visible lg:invisible'>
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50">
-                        <path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"></path>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="22" height="22" viewBox="0 0 30 30" className='dark:fill-white fill-black' fill='#FFFFFF'>
+                        <path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"></path>
                     </svg>
                 </button>
                 {isMenuOpen && (
-                    <div className='w-full bg-gray-50'>
+                    <div className='w-full bg-gray-100 dark:bg-gray-800'>
                         <nav className="">
                             <div
                                 className="hidden max-lg:block cursor-pointer"
@@ -53,17 +53,17 @@ const Header = () => {
                                 }}>
                             </div>
                             <ul className="lg:hidden flex flex-col items-center justify-center ">
-                                <Link to='about' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-bold hover:bg-gray-600 w-full py-2 px-4'>About</Link>
-                                <Link to='skills' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-bold hover:bg-gray-600 w-full py-2 px-4'>Skills</Link>
-                                <Link to='experience' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-bold hover:bg-gray-600 w-full py-2 px-4'>Experience</Link>
-                                <Link to='projects' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-bold hover:bg-gray-600 w-full py-2 px-4'>Projects</Link>
-                                <Link to='education' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-bold hover:bg-gray-600 w-full py-2 px-4'>Education</Link>
-                                <label class="hover:text-gray-900 dark:text-gray-300 cursor-pointer font-bold hover:bg-gray-600 w-full py-2 px-4 flex">
+                                <Link to='about' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>About</Link>
+                                <Link to='skills' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Skills</Link>
+                                <Link to='experience' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Experience</Link>
+                                <Link to='projects' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Projects</Link>
+                                <Link to='education' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Education</Link>
+                                <label class="hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4 flex">
                                     <span className='pr-3'>Dark Mode</span>
                                     <input type="checkbox" value="" class="sr-only peer" onClick={handleThemeSwitch} />
                                     <div class="relative w-11 h-6 bg-gray-500 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-600 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-400"></div>
                                 </label>
-                                <a href='https://github.com/AnantJha108' class="hover:text-gray-900 dark:text-gray-300 cursor-pointer font-bold hover:bg-gray-600 w-full py-2 px-4" target='_blank'>GitHub Profile
+                                <a href='https://github.com/AnantJha108' class="hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4" target='_blank'>GitHub Profile
                                 </a>
                             </ul>
                         </nav>

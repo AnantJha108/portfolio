@@ -7,7 +7,7 @@ const Banner = () => {
             <section id="about" class="text-gray-600 body-font">
                 <div class="container mx-auto flex px-5 pt-36 pb-16 md:flex-row flex-col items-center">
                     <div class="lg:flex-grow md:w-1/2 lg:pl-20 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                        <h1 class="title-font sm:text-4xl text-4xl mb-1 font-medium text-gray-900 dark:text-gray-300">Hi, I am
+                        <h1 class="title-font sm:text-4xl text-4xl mb-1 font-medium text-gray-900 dark:text-gray-200">Hi, I am
                             <br class="hidden lg:inline-block" /> Anant Jha
                         </h1>
                         <p class="mb-2 text-3xl leading-relaxed font-medium dark:text-gray-300">I am a Full Stack Devloper</p>
