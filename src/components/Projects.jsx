@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ProjectsData from '../Data/projects'
 
 const Projects = () => {
-    let [modalStatus, setModalStatus] = useState(false)
+    let [modalStatus, setModalStatus] = useState(ProjectsData.id)
     return (
         <section id="projects" class="text-gray-600 body-font">
             <div class="container px-5 py-4 mx-auto">
@@ -14,20 +14,21 @@ const Projects = () => {
                     {ProjectsData.map((projectsItems, i) => {
                         return (
                             <>
-                                <div className={`ModalDiv ${modalStatus ? "showModalDiv" : ""}`}>
-                                    <div class="relative p-4 w-full max-w-2xl max-h-full">
+                                <div className={`ModalDiv max-h-full  z-50 ${modalStatus === projectsItems.id ? "showModalDiv" : ""}`}>
+                                    <div class="relative xl:w-full  p-4">
                                         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-                                            <div class="p-4 md:p-5 space-y-4">
+                                            <div class="px-4 py-3 ">
+                                                <button className="absolute right-4 top-3 px-2 py-1 bg-red-600 rounded-lg text-white" onClick={() => setModalStatus(false)}>X</button>
                                                 <div class="w-100 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                                                     <img src={projectsItems.image} alt="" />
                                                 </div>
-                                                <h2 class="text-lg text-gray-900 font-medium title-font mb-2 dark:text-gray-200">{projectsItems.title}</h2>
+                                                <h2 class="text-lg text-gray-900 font-medium title-font dark:text-gray-200">{projectsItems.title}</h2>
                                                 <p class="leading-relaxed text-base">{projectsItems.description}</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="xl:w-1/3 md:w-1/2 p-4" key={i} onClick={() => setModalStatus(!modalStatus)}>
+                                <div class="xl:w-1/3 md:w-1/2 p-4" key={i} onClick={() => setModalStatus(projectsItems.id)}>
                                     <div class="border border-gray-200 p-6 rounded-lg">
                                         <div class="w-100 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                                             <img src={projectsItems.image} alt="" />
