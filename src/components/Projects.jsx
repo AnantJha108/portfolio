@@ -14,8 +14,8 @@ const Projects = () => {
                     {ProjectsData.map((projectsItems, i) => {
                         return (
                             <>
-                                <div className={`ModalDiv max-h-full  z-50 ${modalStatus === projectsItems.id ? "showModalDiv" : ""}`}>
-                                    <div class="relative xl:w-full  p-4">
+                                <div className={`ModalDiv xl:w-2/4 w-full max-h-full z-50 ${modalStatus === projectsItems.id ? "showModalDiv" : ""}`}>
+                                    <div class="xl:w-full md:w-full max-h-full p-4">
                                         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                                             <div class="px-4 py-3 ">
                                                 <button className="absolute right-4 top-3 px-2 py-1 bg-red-600 rounded-lg text-white" onClick={() => setModalStatus(false)}>X</button>
