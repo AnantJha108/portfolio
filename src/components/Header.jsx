@@ -53,17 +53,17 @@ const Header = () => {
                                 }}>
                             </div>
                             <ul className="lg:hidden flex flex-col items-center justify-center ">
-                                <Link to='about' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>About</Link>
-                                <Link to='skills' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Skills</Link>
-                                <Link to='experience' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Experience</Link>
-                                <Link to='projects' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Projects</Link>
-                                <Link to='education' spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Education</Link>
-                                <label class="hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4 flex">
+                                <Link to='about' onClick={()=>setIsMenuOpen(!isMenuOpen)} spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>About</Link>
+                                <Link to='skills' onClick={()=>setIsMenuOpen(!isMenuOpen)} spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Skills</Link>
+                                <Link to='experience' onClick={()=>setIsMenuOpen(!isMenuOpen)} spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Experience</Link>
+                                <Link to='projects' onClick={()=>setIsMenuOpen(!isMenuOpen)} spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Projects</Link>
+                                <Link to='education' onClick={()=>setIsMenuOpen(!isMenuOpen)} spy={true} smooth={true} offset={-100} duration={700} className='hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4'>Education</Link>
+                                <label class="hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4 flex ">
                                     <span className='pr-3'>Dark Mode</span>
-                                    <input type="checkbox" value="" class="sr-only peer" onClick={handleThemeSwitch} />
+                                    <input type="checkbox" value="" class="sr-only peer"  onClick={handleThemeSwitch} />
                                     <div class="relative w-11 h-6 bg-gray-500 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-600 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-400"></div>
                                 </label>
-                                <a href='https://github.com/AnantJha108' class="hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4" target='_blank'>GitHub Profile
+                                <a onClick={()=>setIsMenuOpen(!isMenuOpen)} href='https://github.com/AnantJha108' class="hover:text-gray-900 dark:text-gray-300 cursor-pointer font-medium hover:bg-gray-600 w-full py-2 px-4" target='_blank'>GitHub Profile
                                 </a>
                             </ul>
                         </nav>

@@ -17,13 +17,13 @@ const ProjectsData = [{
     },
     {
         id:3,
-        image:guessGender,
+        image:ecom,
         title: "Ecommerce Web Applications",
         description: "Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm."
     },
     {
         id:4,
-        image:ecom,
+        image:guessGender,
         title: "Guess Details By Name",
         description: "Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm."
     },

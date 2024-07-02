@@ -14,7 +14,7 @@ const Education = () => {
                 <div class="container px-1 py-4 mx-auto flex flex-wrap justify-center">
                     <div class="lg:w-3/4 md:w-1/2 md:py-4">
                         <div className='flex'>
-                            <div class="lg:w-2/4 p-0  md:w-1/2 flex-grow">
+                            <div class="lg:w-2/4 pb-3  md:w-1/2 flex-grow">
                                 <div class="lg:p-4 sm:p-0">
                                     <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
                                         <div className='flex'>
@@ -57,7 +57,7 @@ const Education = () => {
                                     <img src={bbm} alt="" />
                                 </div>
                             </div>
-                            <div class="lg:w-2/4 p-0  md:w-1/2 flex-grow">
+                            <div class="lg:w-2/4 pb-3 pt-3 md:w-1/2 flex-grow">
                                 <div className="lg:p-4 sm:p-0">
                                     <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
                                         <div className='flex'>
@@ -76,7 +76,7 @@ const Education = () => {
                             </div>
                         </div>
                         <div className='flex'>
-                            <div class="w-2/4 p-0 flex-grow">
+                            <div class="w-2/4 pb-3 pt-3 flex-grow">
                                 <div class="lg:p-4 sm:p-0">
                                     <div class="border border-gray-200 p-5 rounded-lg shadow-xl">
                                         <div className='flex'>
