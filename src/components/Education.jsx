@@ -9,7 +9,7 @@ const Education = () => {
             <div class="container px-5 py-4 mx-auto">
                 <div class="flex flex-wrap w-full mb-6 flex-col font-medium items-center text-center">
                     <h1 class="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-900 dark:text-gray-200">Education</h1>
-                    <p class="lg:w-3/4 w-full text-lg leading-relaxed text-gray-500 dark:text-gray-300">My Education details </p>
+                    <p class="lg:w-3/4 w-full text-lg leading-relaxed text-gray-500 dark:text-gray-300">My Education details from schooling to till yet </p>
                 </div>
                 <div class="container px-1 py-4 mx-auto flex flex-wrap justify-center">
                     <div class="lg:w-3/4 md:w-1/2 md:py-4">
@@ -40,7 +40,7 @@ const Education = () => {
                                 </div>
                             </div>
                             <div class="lg:w-2/4 md:w-1/2 hidden lg:block">
-                                <h2 class="font-medium title-font text-gray-900 mb-1 tracking-wider text-lg mt-2 p-4 dark:text-gray-200">Oct 2021 - Sep 2025</h2>
+                                <h2 class="font-medium title-font text-gray-900 mb-1 tracking-wider text-lg mt-2 p-4 dark:text-gray-200">Oct 2020 - Sep 2023</h2>
                             </div>
                         </div>
                         <div className='flex'>
@@ -70,7 +70,7 @@ const Education = () => {
                                                 <small className='text-gray-900 dark:text-gray-200'>Passing Year : 2020</small>
                                             </div>
                                         </div>
-                                        <p class="leading-relaxed text-base dark:text-gray-300 text-center text-gray-800 mt-1">I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar.</p>
+                                        <p class="leading-relaxed text-base dark:text-gray-300 text-center text-gray-800 mt-1">I am completed My Intermediate in at BBM High School Purnea .</p>
                                     </div>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@ const Education = () => {
                                                 <small className='text-gray-900 dark:text-gray-200'>Passing Year : 2018</small>
                                             </div>
                                         </div>
-                                        <p class="leading-relaxed text-base text-center text-gray-800 dark:text-gray-300 mt-1">I am completed my Bachelor's degree in Computer Application at Purnea College Purnea .</p>
+                                        <p class="leading-relaxed text-base text-center text-gray-800 dark:text-gray-300 mt-1">I am completed My Matriculation at Saraswati Vidhya Mandir Baghmara Purnea .</p>
                                     </div>
                                 </div>
                             </div>
