@@ -1,5 +1,6 @@
 import React from 'react'
 import dp from '../images/IMG_20230328_122333.jpg'
+import dp1 from '../images/dp1.jpg'
 
 const Banner = () => {
     return (
@@ -17,7 +18,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2">
-                        <img class="ring-2 ring-green-200 dark:ring-gray-300 object-cover object-center rounded-full lg:ml-16" width={340} alt="hero" src={dp} />
+                        <img class="ring-2 ring-green-200 dark:ring-gray-300 object-cover object-center rounded-full lg:ml-16" width={340} alt="hero" src={dp1} />
                     </div>
                 </div>
             </section>
